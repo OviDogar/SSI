@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phishing Detector</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; width: 250px; }
+        #proceed, #safeProceed { 
+            display: none; padding: 10px; border: none; cursor: pointer; margin-top: 10px; 
+        }
+        #proceed { background-color: red; color: white; }
+        #proceed:disabled { background-color: gray; cursor: not-allowed; }
+        #safeProceed { background-color: green; color: white; }
+    </style>
+</head>
+<body style="width=250px;">
+    <h2>Check URL for Phishing</h2>
+    <input type="text" id="url" placeholder="Enter URL">
+    <button id="checkButton">Scan</button>
+    
+    <p id="result"></p>
+    <p id="countdown"></p>
+    
+    <button id="proceed" disabled>Proceed Anyway</button>
+    <button id="safeProceed">Proceed to Site</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>
