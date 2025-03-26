@@ -76,6 +76,7 @@ Your extension should now appear in the toolbar.
 - Click the extension icon
 - Enter a URL manually and click **Scan**
 - The result appears with a **Proceed Anyway** option (if flagged)
+![Dangerous Site](https://github.com/ovidogar/ssi/images/popup00.png)
 
 ### Whitelisting:
 - Safe sites are automatically added to a **local whitelist** to reduce future checks
