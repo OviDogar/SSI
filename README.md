@@ -71,15 +71,17 @@ Your extension should now appear in the toolbar.
 - If the server flags the site:
   - The user receives a **notification warning**
   - The user can choose to **proceed anyway and whitelist the domain**
-  ![Site Load](https://github.com/OviDogar/SSI/blob/main/images/screen01.png)
-
+  
+  ![Site Load](https://github.com/OviDogar/SSI/blob/main/images/screen00.png)
 
 ### Manual URL Scan:
 - Click the extension icon
 - Enter a URL manually and click **Scan**
 - The result appears with a **Proceed Anyway** option (if flagged)
+
 ![Dangerous Site](https://github.com/OviDogar/SSI/blob/main/images/popup01.png)
 - If the website is save, the following result is shown:
+
 ![Safe Site](https://github.com/OviDogar/SSI/blob/main/images/popup02.png)
 
 ### Whitelisting:
