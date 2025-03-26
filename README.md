@@ -64,8 +64,8 @@ Your extension should now appear in the toolbar.
 ### Real-Time Auto Detection:
 - On every page load, the extension sends the URL to the **local Flask server**.
 - The server performs checks such as:
-  - Suspicious keyword presence (`login`, `verify`, etc.)
-  - URL similarity using Levenshtein distance
+  - Suspicious keyword presence (`login`, `verify`, etc.) You can add more keywords if needed, by editing the line #14 of server.py
+  - URL similarity using Levenshtein distance (if needed, you can add more domains that are usually targeted by hackers by editing the line #13 of server.py)
   - Domain age (via WHOIS)
   - Presence of suspicious login forms
 - If the server flags the site:
